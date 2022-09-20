@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0px 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-button,nav img,.button-email,.button-join,.list-item,.icons>span{
+    cursor: pointer;
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-container {
+    display: flex;
+    position: relative;
+}
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 65px;
+    text-align: center;
+}
+
+.person-main {
+    position: relative;
+}
+
+.square {
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    z-index: -1;
+}
+
+.globe {
+    position: absolute;
+    top: 0px;
+    left: 750px;
+}
+
+.star {
+    position: absolute;
+    right: 55px;
+    top: 100px;
+}
+
+.hero-heading {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.hero-description {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px 158px;
+}
+
+.button-email {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2px 12px;
+    margin-right: 5px;
+    color: #515151;
+}
+
+.button-join {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2px 6px;
+    margin-left: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.contact-heading {
+    font-size: 20px;
+    color: #515151;
+}
+
+.icons {
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+}
+
+.star2 {
+    position: relative;
+    left: 700px;
+    top: -28px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-button{
+    font-size: 20px;
+    padding: 2px 15px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-family: 'Orbitron';
+}
