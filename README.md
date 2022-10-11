@@ -18,6 +18,8 @@ sir from ***Ineuron***.
 - CSS Fonts
 - CSS flex property
 ***
+**[Deployed Link](https://project1-fsjd.netlify.app/)**
+***
 ## Feedback
 
 If you have any feedback, please reach out to us at [twitter](https://twitter.com/codewithchetan)
